@@ -3,8 +3,7 @@ from grid import Grid
 from actor import Actor
 from loguru import logger
 
-@logger.catch
-if __name__=="__main__":
+if __name__ == "__main__":
     settings.initialize()
     GAMEMAP = Grid()
     
