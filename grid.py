@@ -1,3 +1,4 @@
+""" This contains code describing the game board and locations within it """
 import settings
 from loguru import logger
 

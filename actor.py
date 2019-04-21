@@ -1,5 +1,6 @@
-import settings
+""" This contains code related to creatures that take actions """
 import random
+import settings
 from loguru import logger
 
 @logger.catch
@@ -14,4 +15,5 @@ class Actor():
         print(self, self.startxlocation, self.startylocation)
 
     def showdescription(self):
+        """ Describe what the creature looks like """
         print(self.description, end=' ')
